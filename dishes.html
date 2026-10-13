@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="fil">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kilalanin ang Filipino egg dishes, subukan ang recipes, at sagutan ang Itlog Quiz.">
+
+    <title>Kilalanin ang mga Itlog | Ang Paborito Kong Itlog</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html" aria-label="Ang Paborito Kong Itlog home">
+                <span class="brand-mark">🥚</span>
+                <span>
+                    Ang Paborito<br>
+                    Kong Itlog
+                </span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-expanded="false"
+                aria-controls="mainNav"
+            >
+                ☰ Menu
+            </button>
+
+            <nav class="nav-links" id="mainNav" aria-label="Pangunahing navigation">
+                <a href="index.html">Home</a>
+                <a href="dishes.html">Dish Gallery</a>
+                <a href="recipes.html">Recipe Corner</a>
+                <a href="quiz.html">Itlog Quiz</a>
+                <a href="about.html">About</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">Egg Dish Gallery</span>
+
+                <h1>Kilalanin ang mga Itlog</h1>
+
+                <p>
+                    Hanapin ang paborito mong putahe, pumili ayon sa
+                    kategorya, at buksan ang detalye para may bagong
+                    matutuhan.
+                </p>
+            </div>
+        </section>
+
+        <!-- Dish Gallery -->
+        <section class="section">
+            <div class="container">
+
+                <!-- Search and Category Filters -->
+                <div class="filters">
+                    <input
+                        class="field"
+                        id="dishSearch"
+                        type="search"
+                        placeholder="🔎  Maghanap ng dish..."
+                        aria-label="Maghanap ng dish"
+                    >
+
+                    <select
+                        class="field"
+                        id="categoryFilter"
+                        aria-label="Filter ayon sa category"
+                    >
+                        <option value="all">Lahat ng kategorya</option>
+                        <option>Street food</option>
+                        <option>Ulam</option>
+                        <option>Ulam / side dish</option>
+                        <option>Simple egg dish</option>
+                    </select>
+
+                    <button class="button outline" id="clearFilters">
+                        I-clear ×
+                    </button>
+                </div>
+
+                <!-- Search Results Count -->
+                <p
+                    id="resultCount"
+                    class="muted"
+                    aria-live="polite"
+                ></p>
+
+                <!-- Dish Cards Render Here -->
+                <div class="dish-grid" id="dishGrid"></div>
+
+            </div>
+        </section>
+
+        <!-- Dish Details Modal -->
+        <div
+            class="modal-backdrop"
+            id="dishModal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalTitle"
+        >
+            <div class="modal">
+
+                <button
+                    class="modal-close"
+                    id="closeModal"
+                    aria-label="Isara ang detalye"
+                >
+                    ✕
+                </button>
+
+                <div id="modalBody" class="modal-content"></div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Footer Brand -->
+                <div>
+                    <div class="brand">
+                        <span class="brand-mark">🥚</span>
+                        <span>Ang Paborito Kong Itlog</span>
+                    </div>
+
+                    <p style="margin-top: 16px">
+                        Sarap ng Itlog, Sarap ng Pinoy eggs!<br>
+                        Isang masayang paglalakbay sa pagkaing Pinoy.
+                    </p>
+                </div>
+
+                <!-- Footer Navigation -->
+                <div>
+                    <h3>Tuklasin</h3>
+
+                    <div class="footer-links">
+                        <a href="dishes.html">Kilalanin ang mga Itlog</a>
+                        <a href="recipes.html">Paano Lutuin?</a>
+                        <a href="quiz.html">Subukan ang Itlog Quiz</a>
+                    </div>
+                </div>
+
+                <!-- Project Information -->
+                <div>
+                    <h3>Project Info</h3>
+
+                    <p>
+                        Integrative Programming Technologies<br>
+                        Educational food discovery website
+                    </p>
+
+                    <a href="about.html">Alamin ang proyekto →</a>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                © 2026 Ang Paborito Kong Itlog · Student project ·
+                Made with itlog and pagmamahal.
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/dishes.js"></script>
+</body>
+</html>
+```

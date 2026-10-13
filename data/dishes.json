@@ -1,0 +1,112 @@
+[
+  {
+    "id": "kwek-kwek",
+    "name": "Kwek-kwek",
+    "category": "Street food",
+    "eggType": "Orange-battered quail eggs",
+    "ingredients": "Itlog ng pugo",
+    "description": "Quail eggs coated in orange batter and deep-fried, commonly served with spiced vinegar or a sweet-savory dip.",
+    "tagline": "Munting itlog ng pugo na binalot sa kulay kahel na batter.",
+    "image": "images/kwek-kwek.jpeg",
+    "subtitle": "Street-food favorite"
+  },
+  {
+    "id": "tokneneng",
+    "name": "Tokneneng",
+    "category": "Street food",
+    "eggType": "Chicken or duck egg",
+    "ingredients": "Itlog ng manok o pato",
+    "description": "A larger battered egg street snack, often served with vinegar-based dipping sauce.",
+    "tagline": "Mas malaking battered egg snack na madalas makita sa mga street-food stall.",
+    "image": "images/tokneneng.jpg",
+    "subtitle": "Street-food favorite"
+  },
+  {
+    "id": "balut",
+    "name": "Balut",
+    "category": "Street food",
+    "eggType": "Fertilized duck egg",
+    "ingredients": "Itlog ng pato",
+    "description": "A fertilized duck egg with a developing embryo, boiled and commonly eaten warm.",
+    "tagline": "Pinakuluang fertilized duck egg na kinakain habang mainit; bahagi ng pagkaing-kalye sa Pilipinas.",
+    "image": "images/balut.jpg",
+    "subtitle": "Traditional delicacy"
+  },
+  {
+    "id": "penoy",
+    "name": "Penoy",
+    "category": "Street food",
+    "eggType": "Duck egg",
+    "ingredients": "Itlog ng pato",
+    "description": "An unfertilized or less-developed duck egg sold boiled; its contents are more uniform than balut.",
+    "tagline": "Pinakuluang itlog ng pato na walang nabuong embryo gaya ng balut.",
+    "image": "images/penoy.jpg",
+    "subtitle": "Traditional delicacy"
+  },
+  {
+    "id": "tortang-talong",
+    "name": "Tortang talong",
+    "category": "Ulam",
+    "eggType": "Egg + eggplant",
+    "ingredients": "Talong at itlog",
+    "description": "Grilled or boiled eggplant dipped in beaten egg and pan-fried until golden.",
+    "tagline": "Talong na pinalambot, nilublob sa binating itlog, at pinirito sa kawali.",
+    "image": "images/tortang-talong.jpg",
+    "subtitle": "Home-cooked classic"
+  },
+  {
+    "id": "tortang-giniling",
+    "name": "Tortang giniling",
+    "category": "Ulam",
+    "eggType": "Egg + ground meat",
+    "ingredients": "Giniling at itlog",
+    "description": "A savory Filipino omelet with ground meat and often aromatics or vegetables.",
+    "tagline": "Omelet na may giniling na karne at mga pampalasa.",
+    "image": "images/tortang-giniling.jpg",
+    "subtitle": "Hearty ulam"
+  },
+  {
+    "id": "itlog-na-maalat",
+    "name": "Itlog na maalat",
+    "category": "Ulam / side dish",
+    "eggType": "Salt-cured duck egg",
+    "ingredients": "Itlog na inasinan",
+    "description": "Salt-cured egg, commonly paired with tomatoes and served alongside rice or other dishes.",
+    "tagline": "Itlog na inasinan at madalas ipares sa kamatis.",
+    "image": "images/itlog-na-maalat.jpg",
+    "subtitle": "Salty and savory"
+  },
+  {
+  "id": "egg-soup",
+  "name": "Egg Soup",
+  "category": "Simple egg dish",
+  "eggType": "Chicken egg",
+  "ingredients": "Chicken egg, chicken broth, garlic, onion, and pepper",
+  "description": "A warm, comforting soup made by slowly stirring beaten eggs into hot broth to create soft egg ribbons.",
+  "tagline": "Mainit at masarap na sabaw na may malalambot na hibla ng itlog.",
+  "image": "images/egg-soup.jpg",
+  "subtitle": "Warm and comforting"
+  },
+  {
+    "id": "nilagang-itlog",
+    "name": "Nilagang itlog",
+    "category": "Simple egg dish",
+    "eggType": "Chicken egg",
+    "ingredients": "Itlog",
+    "description": "Egg boiled in its shell until the white and yolk reach the preferred doneness.",
+    "tagline": "Payak na itlog na pinakuluan hanggang sa gustong luto.",
+    "image": "images/nilagang-itlog.jpg",
+    "subtitle": "Everyday staple"
+  },
+  {
+    "id": "itlog-na-may-kamatis",
+    "name": "Itlog na may kamatis",
+    "category": "Simple egg dish",
+    "eggType": "Egg + tomato",
+    "ingredients": "Itlog at kamatis",
+    "description": "A quick home-style dish of scrambled eggs cooked with ripe tomatoes and seasoning.",
+    "tagline": "Madaling ulam na binating itlog na niluto kasama ng hinog na kamatis.",
+    "image": "images/itlog-na-may-kamatis.jpg",
+    "subtitle": "Quick breakfast"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "kwek-kwek",
+    "title": "Kwek-kwek",
+    "image": "images/kwek-kwek.jpeg",
+    "intro": "Crispy orange-battered quail eggs with a dipping sauce.",
+    "prep": "15 min",
+    "cook": "10–15 min",
+    "serves": "3–4",
+    "ingredients": [
+      "12 boiled quail eggs",
+      "½ cup all-purpose flour",
+      "½ cup water, plus as needed",
+      "1 egg",
+      "½ tsp annatto powder or orange food coloring (optional)",
+      "Salt and pepper",
+      "Oil for frying"
+    ],
+    "steps": [
+      "Peel the boiled quail eggs and pat them dry.",
+      "Whisk flour, water, egg, annatto, salt, and pepper into a smooth, thick batter.",
+      "Coat each egg in a little flour, then dip it in the batter.",
+      "Fry in hot oil in small batches until the coating is crisp and cooked through.",
+      "Drain on a rack or paper towel and serve with your preferred dipping sauce."
+    ]
+  },
+  {
+    "id": "tortang-talong",
+    "title": "Tortang talong",
+    "image": "images/tortang-talong.jpg",
+    "intro": "Smoky eggplant wrapped in a tender egg coating.",
+    "prep": "10 min",
+    "cook": "15–20 min",
+    "serves": "2",
+    "ingredients": [
+      "2 medium eggplants",
+      "2 eggs",
+      "2 tbsp cooking oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Grill or boil eggplants until tender. Cool, peel, and flatten gently while keeping the stem attached.",
+      "Beat eggs with salt and pepper in a shallow bowl.",
+      "Dip the flattened eggplant into the beaten egg, coating both sides.",
+      "Pan-fry in oil over medium heat until golden on both sides and the egg is fully set.",
+      "Serve hot with rice and a dipping sauce if desired."
+    ]
+  },
+  {
+    "id": "tortang-giniling",
+    "title": "Tortang giniling",
+    "image": "images/tortang-giniling.jpg",
+    "intro": "A filling Filipino omelet with seasoned ground meat.",
+    "prep": "10 min",
+    "cook": "15–20 min",
+    "serves": "2–3",
+    "ingredients": [
+      "200 g ground pork or beef",
+      "3 eggs",
+      "¼ small onion, chopped",
+      "1 small tomato, chopped (optional)",
+      "1 tbsp cooking oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Heat a little oil and sauté onion and tomato until softened.",
+      "Add ground meat; cook, breaking it apart, until no pink remains and it is thoroughly cooked. Let it cool slightly.",
+      "Beat eggs with salt and pepper, then mix in the cooked meat.",
+      "Heat remaining oil in a pan. Pour in the mixture in small portions or one omelet.",
+      "Cook over medium-low heat until set, then flip carefully and cook the other side through."
+    ]
+  },
+  {
+    "id": "itlog-na-may-kamatis",
+    "title": "Itlog na may kamatis",
+    "image": "images/itlog-na-may-kamatis.jpg",
+    "intro": "A quick, comforting egg-and-tomato ulam.",
+    "prep": "5 min",
+    "cook": "8–10 min",
+    "serves": "2",
+    "ingredients": [
+      "3 eggs",
+      "2 ripe tomatoes, chopped",
+      "1 tbsp cooking oil",
+      "1 small garlic clove, minced (optional)",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Beat eggs with a pinch of salt and pepper.",
+      "Heat oil in a pan; sauté garlic briefly if using.",
+      "Add tomatoes and cook until soft and juicy.",
+      "Pour in eggs and gently stir until softly set and fully cooked.",
+      "Serve immediately with rice."
+    ]
+  },
+  {
+    "id": "nilagang-itlog",
+    "title": "Nilagang itlog",
+    "image": "images/nilagang-itlog.jpg",
+    "intro": "A simple kitchen staple for meals, snacks, or baon.",
+    "prep": "2 min",
+    "cook": "9–12 min",
+    "serves": "2",
+    "ingredients": [
+      "2 large eggs",
+      "Water to cover",
+      "Cold water for cooling"
+    ],
+    "steps": [
+      "Place eggs in a saucepan and cover with water.",
+      "Bring to a boil, then simmer gently. Cook about 9–12 minutes for firm yolks, adjusting for egg size and preference.",
+      "Transfer eggs to cold water until cool enough to handle.",
+      "Peel and serve, or refrigerate promptly if saving for later."
+    ]
+  }
+]

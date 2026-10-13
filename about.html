@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="fil">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kilalanin ang Filipino egg dishes, subukan ang recipes, at sagutan ang Itlog Quiz.">
+
+    <title>Bakit Itlog? | Ang Paborito Kong Itlog</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html" aria-label="Ang Paborito Kong Itlog home">
+                <span class="brand-mark">🥚</span>
+                <span>
+                    Ang Paborito<br>
+                    Kong Itlog
+                </span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-expanded="false"
+                aria-controls="mainNav"
+            >
+                ☰ Menu
+            </button>
+
+            <nav class="nav-links" id="mainNav" aria-label="Pangunahing navigation">
+                <a href="index.html">Home</a>
+                <a href="dishes.html">Dish Gallery</a>
+                <a href="recipes.html">Recipe Corner</a>
+                <a href="quiz.html">Itlog Quiz</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">About the project</span>
+
+                <h1>Bakit Itlog?</h1>
+
+                <p>
+                    Isang interactive at educational website na nagdiriwang
+                    sa mga Filipino egg dishes—mula sa street food hanggang
+                    sa lutong-bahay.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container about-grid">
+
+                <!-- Project Purpose -->
+                <article class="info-panel">
+                    <h2>Layunin ng proyekto</h2>
+
+                    <p>
+                        Layunin ng <b>Ang Paborito Kong Itlog</b> na ipakilala
+                        ang iba’t ibang pagkaing Pinoy na may itlog, magbahagi
+                        ng beginner-friendly recipes, at gawing masaya ang
+                        pagkatuto tungkol sa food culture.
+                    </p>
+
+                    <h3>Bakit mahalagang tuklasin?</h3>
+
+                    <p>
+                        Ang mga pagkaing ito ay nagpapakita ng sari-saring
+                        paraan ng pagluluto at lokal na food traditions.
+                        Sa isang lugar, maaaring maghanap ng dish, mag-save
+                        ng favorites, sumunod sa recipe, at sagutan ang quiz.
+                    </p>
+
+                    <h3>Para kanino?</h3>
+
+                    <p>
+                        Para sa Filipino students, food lovers, at sinumang
+                        gustong matuto tungkol sa pagkaing Pinoy.
+                    </p>
+                </article>
+
+                <!-- Project Features -->
+                <article class="info-panel">
+                    <h2>Mga feature</h2>
+
+                    <ul class="feature-list">
+                        <li>
+                            <span class="check-dot">✓</span>
+                            <span>Searchable dish gallery at category filters</span>
+                        </li>
+
+                        <li>
+                            <span class="check-dot">✓</span>
+                            <span>Dish details at saved favorites</span>
+                        </li>
+
+                        <li>
+                            <span class="check-dot">✓</span>
+                            <span>Recipe cards na may ingredient checklist</span>
+                        </li>
+
+                        <li>
+                            <span class="check-dot">✓</span>
+                            <span>10-question quiz na may score at restart</span>
+                        </li>
+
+                        <li>
+                            <span class="check-dot">✓</span>
+                            <span>Feedback form na may client-side validation</span>
+                        </li>
+                    </ul>
+
+                    <h3>Technologies used</h3>
+
+                    <p>
+                        HTML5 · CSS3 · Vanilla JavaScript · JSON · Local Storage
+                    </p>
+                </article>
+
+                <!-- Feedback Form -->
+                <article class="info-panel" style="grid-column: 1 / -1">
+                    <h2>Ibahagi ang feedback mo</h2>
+
+                    <p>
+                        Demo form ito para sa project. Hindi ito nagpapadala
+                        ng email o nagse-save sa server.
+                    </p>
+
+                    <form id="feedbackForm" class="feedback-form">
+                        <label for="feedbackName">Pangalan *</label>
+
+                        <input
+                            class="field"
+                            id="feedbackName"
+                            name="name"
+                            required
+                            maxlength="80"
+                            placeholder="Ilagay ang pangalan"
+                        >
+
+                        <label for="feedbackEmail">Email (optional)</label>
+
+                        <input
+                            class="field"
+                            id="feedbackEmail"
+                            name="email"
+                            type="email"
+                            placeholder="hal. pangalan@email.com"
+                        >
+
+                        <label for="feedbackMessage">Feedback o mensahe *</label>
+
+                        <textarea
+                            class="field"
+                            id="feedbackMessage"
+                            name="message"
+                            required
+                            minlength="5"
+                            rows="4"
+                            placeholder="Ano ang nagustuhan mo? Ano pa ang puwedeng idagdag?"
+                        ></textarea>
+
+                        <button class="button primary" type="submit">
+                            Ipadala ang feedback →
+                        </button>
+
+                        <div id="feedbackNotice" aria-live="polite"></div>
+                    </form>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- Footer Brand -->
+                <div>
+                    <div class="brand">
+                        <span class="brand-mark">🥚</span>
+                        <span>Ang Paborito Kong Itlog</span>
+                    </div>
+
+                    <p style="margin-top: 16px">
+                        Sarap ng Itlog, Sarap ng Pinoy eggs!<br>
+                        Isang masayang paglalakbay sa pagkaing Pinoy.
+                    </p>
+                </div>
+
+                <!-- Footer Navigation -->
+                <div>
+                    <h3>Tuklasin</h3>
+
+                    <div class="footer-links">
+                        <a href="dishes.html">Kilalanin ang mga Itlog</a>
+                        <a href="recipes.html">Paano Lutuin?</a>
+                        <a href="quiz.html">Subukan ang Itlog Quiz</a>
+                    </div>
+                </div>
+
+                <!-- Project Information -->
+                <div>
+                    <h3>Project Info</h3>
+
+                    <p>
+                        Integrative Programming Technologies<br>
+                        Educational food discovery website
+                    </p>
+
+                    <a href="about.html">Alamin ang proyekto →</a>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                © 2026 Ang Paborito Kong Itlog · Student project ·
+                Made with itlog and pagmamahal.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/about.js"></script>
+</body>
+</html>
